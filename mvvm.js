@@ -54,6 +54,8 @@ MVVM.prototype = {
 };
 
 
+
+
 var arr = {
     a: "11",
     b: "22",
