@@ -50,3 +50,13 @@ ReactDOM.reander(<blockBox myattr="world" />, document.getElementById("reactCont
 
 </script>
 
+function fibonas(num){
+	if(num < 0) {
+		return -1;
+	}else if(num === 1 || num ===0) {
+		return 0;
+	} else {
+		return (num * fibonas(num - 1));	
+	}
+} 
+
