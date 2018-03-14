@@ -1,5 +1,9 @@
 /*!
+<<<<<<< HEAD
  * Vue.js v2.5.14
+=======
+ * Vue.js v2.5.15
+>>>>>>> d03c49c2f31b79fdb96aca11b2a0d7ad9ddf2680
  * (c) 2014-2018 Evan You
  * Released under the MIT License.
  */
@@ -1979,7 +1983,11 @@ function traverse (val) {
 function _traverse (val, seen) {
   var i, keys;
   var isA = Array.isArray(val);
+<<<<<<< HEAD
   if ((!isA && !isObject(val)) || Object.isFrozen(val)) {
+=======
+  if ((!isA && !isObject(val)) || Object.isFrozen(val) || val instanceof VNode) {
+>>>>>>> d03c49c2f31b79fdb96aca11b2a0d7ad9ddf2680
     return
   }
   if (val.__ob__) {
@@ -5069,7 +5077,11 @@ Object.defineProperty(Vue, 'FunctionalRenderContext', {
   value: FunctionalRenderContext
 });
 
+<<<<<<< HEAD
 Vue.version = '2.5.14';
+=======
+Vue.version = '2.5.15';
+>>>>>>> d03c49c2f31b79fdb96aca11b2a0d7ad9ddf2680
 
 /*  */
 
