@@ -1,9 +1,5 @@
 /*!
-<<<<<<< HEAD
- * Vue.js v2.5.14
-=======
  * Vue.js v2.5.15
->>>>>>> d03c49c2f31b79fdb96aca11b2a0d7ad9ddf2680
  * (c) 2014-2018 Evan You
  * Released under the MIT License.
  */
@@ -5077,12 +5073,7 @@ Object.defineProperty(Vue, 'FunctionalRenderContext', {
   value: FunctionalRenderContext
 });
 
-<<<<<<< HEAD
-Vue.version = '2.5.14';
-=======
 Vue.version = '2.5.15';
->>>>>>> d03c49c2f31b79fdb96aca11b2a0d7ad9ddf2680
-
 /*  */
 
 // these are reserved for web because they are directly compiled away
