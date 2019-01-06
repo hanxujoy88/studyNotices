@@ -107,4 +107,4 @@
         // 关闭元素
         closeElement(element)
       }
-    },
+    }
